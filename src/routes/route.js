@@ -8,7 +8,7 @@ const data = [{
   path: '/',
   element: <BasicLayout></BasicLayout>,
   children: [{
-    path: '/home',
+    path: '/home/:id',
     element: <Home></Home>
   }, {
     path: '/about',

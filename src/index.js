@@ -10,11 +10,11 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Suspense fallback={<div>Loading...</div>}>
-        <ConfigProvider locale={zhCN}>
+      <ConfigProvider locale={zhCN}>
+        <Suspense fallback={<div>Loading...</div>}>
           <App />
-        </ConfigProvider>
-      </Suspense>
+        </Suspense>
+      </ConfigProvider>
     </BrowserRouter>
   </React.StrictMode>
 );
